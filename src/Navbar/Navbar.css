@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #2D3847;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 18px;
+    padding-top: 2px;
+}
+
+a {
+    justify-content: center;
+    display: flex;
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 1.5em;
+    align-items: center;
+}
