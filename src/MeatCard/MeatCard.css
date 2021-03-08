@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.4;
+}
+
+.steak-card {
+    border: 1px solid black;
+    margin: 15px;
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url('../assets/photos/card-background-steak.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.chicken-card {
+    border: 1px solid black;
+    margin: 15px;
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url('../assets/photos/card-background-chicken.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.seafood-card {
+    border: 1px solid black;
+    margin: 15px;
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url('../assets/photos/card-background-seafood.jpg');
+    background-repeat: none;
+    background-size: cover;
+}
+
+.pork-card {
+    border: 1px solid black;
+    margin: 15px;
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url('../assets/photos/card-background-pork.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h3 {
+    color: #fff;
+}

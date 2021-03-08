@@ -24,8 +24,9 @@ class PhotoSlide extends Component {
         console.log(this.props)
         return (
             <div className='photoSlide'>
+                <h5>{this.props.title}</h5>
                 <img src={this.props.src} />
-                
+                <button className='shop-btn'>Order Now</button>
                 <button className='left-button'>
                     <ArrowBackIosIcon
                         onClick={this.handleBackClick}
