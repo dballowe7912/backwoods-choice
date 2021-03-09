@@ -11,7 +11,6 @@ class Meats extends Component {
                     gridColumn: 'repeat(2, 1fr',
                     gap: '10px',
                     gridAutoRows: 'minmax(100px, auto)',
-                    backgroundColor: '#000'
                 }}
             >
                 <MeatCard/>

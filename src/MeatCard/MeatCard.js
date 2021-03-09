@@ -6,16 +6,16 @@ class MeatCard extends Component {
         return (
             <>
                 <div className='steak-card card'>
-                    Gourmet Steaks
+                    <h3>Gourmet Steaks</h3>
                 </div>
                 <div className='seafood-card card'>
-                    Gourmet Seafood
+                    <h3>Gourmet Seafood</h3>
                 </div>
                 <div className='chicken-card card'>
-                    Gourmet Chicken
+                    <h3>Gourmet Chicken</h3>
                 </div>
                 <div className='pork-card card'>
-                    Gourmet Pork
+                    <h3>Gourmet Pork</h3>
                 </div>
             </>
         )

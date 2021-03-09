@@ -3,6 +3,8 @@ import PhotoSlide from '../PhotoSlide/PhotoSlide'
 import slide1 from '../assets/photos/slide1.jpg';
 import slide2 from '../assets/photos/slide2.jpg';
 
+import './SlidesContainer.css'
+
 class SlidesContainer extends Component {
     constructor(props){
         super(props)
@@ -38,7 +40,7 @@ class SlidesContainer extends Component {
     
     render() {
         return (
-            <div>
+            <div className='slides-container'>
                 <PhotoSlide 
                     src={this.state.src} 
                     title={this.state.title}

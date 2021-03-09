@@ -7,6 +7,7 @@ import ContactPage from './pages/ContactPage';
 import Meats from './pages/Meats';
 import Header from './Header/Header';
 import Navbar from './Navbar/Navbar';
+import './App.css';
 
 function App() {
   return (

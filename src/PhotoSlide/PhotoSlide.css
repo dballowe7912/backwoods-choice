@@ -6,6 +6,8 @@
     width: 100%;
     background-color: #000;
     position: relative;
+    border-bottom: 1px solid #F2D585;
+    border-top: 1px solid #F2D585;
 }
 
 .photoSlide img {
@@ -17,7 +19,7 @@
 .photoSlide h5 {
     font-family: 'RocknRoll One', sans-serif;
     font-size: 2.5em;
-    color: #fff;
+    color: #f2f2f2;
     position: absolute;
     z-index: 1;
     top: 50%;
@@ -62,7 +64,7 @@
     left: 50%;
     padding: 0 10px 2px 10px;
     transform: translate(-50%, -50%);
-    background-color: #315A94;
+    background-color: #F25C2C;
     border: none;
     border-radius: 5px;
     margin-top: 20px;
@@ -70,6 +72,6 @@
 
 .shop-btn:hover {
     cursor: pointer;
-    background-color: #8DB0E0;
+    background-color: #FC7E2D;
     border: 1px solid #fff;
 }
