@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './MeatCard.css';
 
 class MeatCard extends Component {
     render() {
         return (
             <>
-                <div className='steak-card card'>
+                
+                <Link className='steak-card card'>
                     <h3>Gourmet Steaks</h3>
-                </div>
+                </Link>
+                
                 <div className='seafood-card card'>
                     <h3>Gourmet Seafood</h3>
                 </div>

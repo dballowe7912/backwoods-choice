@@ -75,3 +75,8 @@
     background-color: #FC7E2D;
     border: 1px solid #fff;
 }
+
+.photoSlide .slide-image {
+    width: 100%;
+    height: 100vh;
+}
