@@ -18,7 +18,9 @@
 
 .photoSlide h5 {
     font-family: 'RocknRoll One', sans-serif;
-    font-size: 2.5em;
+    font-size: 3.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     color: #f2f2f2;
     position: absolute;
     z-index: 1;
@@ -79,4 +81,18 @@
 .photoSlide .slide-image {
     width: 100%;
     height: 100vh;
+}
+
+/* Responsive Adjustments */
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 516px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    
+    .photoSlide h5 {
+        font-size: 1.3em;
+        font-size: 2.5em;
+    }
 }

@@ -11,7 +11,7 @@ class SlidesContainer extends Component {
 
         this.state = {
             src: slide1,
-            title: 'Gourmet Steaks'
+            title: 'Steaks'
         }
 
         this.nextPhoto = this.nextPhoto.bind(this);
@@ -23,7 +23,7 @@ class SlidesContainer extends Component {
         if (src === slide1) {
             this.setState({
                 src: slide2,
-                title: 'Gourmet Seafood'
+                title: 'Seafood'
             })
       }
     }
@@ -33,7 +33,7 @@ class SlidesContainer extends Component {
         if (src === slide2) {
             this.setState({
                 src: slide1,
-                title: 'Gourmet Steaks'
+                title: 'Steaks'
             })
         }
     }

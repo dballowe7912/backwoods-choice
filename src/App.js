@@ -1,19 +1,17 @@
 import React from 'react';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
+import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Meats from './pages/Meats';
-import Header from './Header/Header';
-import Navbar from './Navbar/Navbar';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Navbar/>
+      {/* <Header/>
+      <Navbar/> */}
       <Switch>
         <Route path='/about'>
           <AboutPage/>

@@ -7,7 +7,11 @@ class MeatCard extends Component {
         return (
             <>
                 
-                <Link className='steak-card card'>
+                <Link 
+                    exact 
+                    to='/steak-menu' 
+                    className='steak-card card'
+                >
                     <h3>Gourmet Steaks</h3>
                 </Link>
                 
