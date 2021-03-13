@@ -1,0 +1,47 @@
+/* .meat-page-container {
+    
+} */
+
+.meats {
+    display: grid;
+    grid-column: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    height: 100vh;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 516px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .navbar a {
+        font-size: 1.5em;
+    }
+
+    .meats {
+        display: block;
+        background-image: url('../../assets/photos/wood-background.jpg');
+        height: 100vh;
+        /* background-position: inherit; */
+    }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 516px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .navbar a {
+        font-size: 1.3em;
+    }
+
+    .meats {
+        display: block;
+        background-image: url('../../assets/photos/wood-background.jpg');
+        height: 110vh;
+        background-size: 100vh;
+    }
+}

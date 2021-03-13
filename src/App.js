@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import Meats from './pages/Meats';
+import Meats from './pages/Meats/Meats';
 import './App.css';
 
 function App() {
