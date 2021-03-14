@@ -1,0 +1,43 @@
+.about-page {
+    height: 100%;
+}
+
+.about-container {
+    display: flex;
+    border-top: 1px solid darkgrey;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.mission {
+    text-align: center;
+    justify-content: center;
+    color: darkgrey;
+    font-size: 2em;
+    padding-top: 120px;
+    width: 50%;
+}
+
+img {
+    /* padding-top: 20px; */
+}
+
+/* Responsive Adjustments */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 516px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    
+
+    }
+    
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 516px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+
+}

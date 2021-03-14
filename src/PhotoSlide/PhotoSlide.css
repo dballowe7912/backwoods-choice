@@ -4,10 +4,10 @@
 
 .photoSlide {
     width: 100%;
-    background-color: #000;
+    background-color: black;
     position: relative;
-    border-bottom: 1px solid #F2D585;
-    border-top: 1px solid #F2D585;
+    /* border-top: 1px solid #F2D585; */
+    height: auto;
 }
 
 .photoSlide img {
@@ -94,5 +94,13 @@ and (orientation: portrait) {
     .photoSlide h5 {
         font-size: 1.3em;
         font-size: 2.5em;
+        padding-bottom: 1em;
     }
+
+    .photoSlide .slide-image {
+        width: 100%;
+        height: auto;
+    }
+
+
 }

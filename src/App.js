@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
-import AboutPage from './pages/AboutPage';
+import AboutPage from './pages/AboutPage/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Meats from './pages/Meats/Meats';
 import SteakMenu from './SteakMenu/SteakMenu';

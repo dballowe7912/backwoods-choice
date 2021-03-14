@@ -1,42 +1,6 @@
-/* @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 516px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-    .main-container {
-      width: 100vw;
-    }
-    
+thead {
+    border-bottom: 1px solid white;
 }
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 516px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-    .main-container {
-      width: 100vw;
-    }
-    
-} */
-
-/* @media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: portrait) {
-      .main-container {
-          background-size: inherit;
-      }
-
-      .menu-content table {
-          margin: 0;
-      }
-
-      
-} */
 
 @media screen 
   and (device-width: 320px) 

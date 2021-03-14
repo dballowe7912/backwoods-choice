@@ -12,7 +12,6 @@
   display: block;
   background-color: black;
   line-height: 2em;
-  /* margin: 30px 200px; */
   opacity: 0.8;
 }
 
@@ -36,25 +35,25 @@ table {
 }
 
 .table-head {
-  border: 1px solid white;
+  border-bottom: 1px solid white;
   width: 100%;
 }
 
 .name {
   text-align: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 60%;
 }
 
 .quantity {
   text-align: center;
   width: 20%;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .weight {
   text-align: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 20%;
 }
 
@@ -67,6 +66,10 @@ table {
     .menu-content {
       line-height: unset;
       font-size: 0.7em;
+    }
+
+    .name {
+      padding: 0 5px 0 5px;
     }
     
   }
@@ -82,6 +85,9 @@ table {
       font-size: 0.7em;
     }
     
+    .name, .weight, .quantity {
+      padding: 0 5px 0 5px;
+    }
 } 
 
 /* @media screen 

@@ -17,9 +17,9 @@ const SteakMenu = (props) => {
                     <table>
                         <thead>
                             <tr className='table-head'>
-                                <th className='name'>Steak</th>
-                                <th className='quantity'>Quantity</th>
-                                <th className='weight'>Net Wt</th>
+                                <th className='name'>Cut</th>
+                                <th className='quantity'>Qty</th>
+                                <th className='weight'>Weight</th>
                             </tr>
                         </thead>
                         <tbody>
