@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
 import { steaks } from '../data';
+
 import './SteakMenu.css';
 
 const SteakMenu = (props) => {
