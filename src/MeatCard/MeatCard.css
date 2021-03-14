@@ -6,7 +6,13 @@
     border: 1px solid #F2D585;
     color: black;
     font-size: 3em;
+    transition: 0.3s ease-in-out;
 }
+
+/* .steak-card:hover {
+    margin: 10px;
+    border: 1px solid white;
+} */
 
 .steak-card {
     margin: 15px;
@@ -16,6 +22,11 @@
     background-position: center;
     background-size: cover;
 }
+
+/* .chicken-card:hover {
+    margin: 10px;
+    border: 1px solid white;
+} */
 
 .chicken-card {
     margin: 15px;

@@ -15,15 +15,27 @@ class MeatCard extends Component {
                     <h3>Steaks</h3>
                 </Link>
                 
-                <div className='seafood-card card'>
+                <Link 
+                    className='seafood-card card' 
+                    exact 
+                    to='/seafood-menu' 
+                >
                     <h3>Seafood</h3>
-                </div>
-                <div className='chicken-card card'>
+                </Link>
+                <Link 
+                    className='chicken-card card' 
+                    exact 
+                    to='/chicken-menu'
+                >
                     <h3>Chicken</h3>
-                </div>
-                <div className='pork-card card'>
+                </Link>
+                <Link 
+                    className='pork-card card' 
+                    exact 
+                    to='/pork-menu' 
+                >
                     <h3>Pork</h3>
-                </div>
+                </Link>
             </>
         )
     }

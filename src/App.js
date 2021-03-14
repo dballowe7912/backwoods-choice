@@ -5,7 +5,12 @@ import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Meats from './pages/Meats/Meats';
+import SteakMenu from './SteakMenu/SteakMenu';
+import ChickenMenu from './ChickenMenu/ChickenMenu';
+
 import './App.css';
+import PorkMenu from './PorkMenu/PorkMenu';
+import SeafoodMenu from './SeafoodMenu/SeafoodMenu';
 
 function App() {
   return (
@@ -13,6 +18,18 @@ function App() {
       {/* <Header/>
       <Navbar/> */}
       <Switch>
+        <Route path='/seafood-menu'>
+          <SeafoodMenu/>
+        </Route>
+        <Route path='/pork-menu'>
+          <PorkMenu/>
+        </Route>
+        <Route path='/chicken-menu'>
+          <ChickenMenu/>
+        </Route>
+        <Route path='/steak-menu'>
+          <SteakMenu/>
+        </Route>
         <Route path='/about'>
           <AboutPage/>
         </Route>

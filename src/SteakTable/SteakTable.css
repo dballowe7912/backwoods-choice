@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+}
+
+.table-head {
+    border: 1px solid white;
+    width: 100%;
+}
+
+.name {
+    border: 1px solid white;
+    width: 50%;
+}
+
+.quantity {
+    width: 25%;
+    border: 1px solid white;
+}
+
+.weight {
+    border: 1px solid white;
+    width: 25%;
+}
