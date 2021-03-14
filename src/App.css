@@ -8,3 +8,52 @@
   height: 100%;
 }
 
+.menu-content {
+  display: block;
+  background-color: black;
+  line-height: 2em;
+  margin: 30px 200px;
+  opacity: 0.8;
+}
+
+.menu-container {
+  height: 100vh;
+  color: white;
+  font-size: 2em;
+  padding-top: 20px;
+}
+
+.menu-container h3 {
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+table {
+  width: 100%;
+}
+
+.table-head {
+  border: 1px solid white;
+  width: 100%;
+}
+
+.name {
+  text-align: center;
+  border: 1px solid white;
+  width: 60%;
+}
+
+.quantity {
+  text-align: center;
+  width: 20%;
+  border: 1px solid white;
+}
+
+.weight {
+  text-align: center;
+  border: 1px solid white;
+  width: 20%;
+}
