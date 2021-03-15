@@ -3,7 +3,7 @@ import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage/AboutPage';
-import ContactPage from './pages/ContactPage';
+import ContactPage from './pages/ContactPage/ContactPage';
 import Meats from './pages/Meats/Meats';
 import SteakMenu from './SteakMenu/SteakMenu';
 import ChickenMenu from './ChickenMenu/ChickenMenu';

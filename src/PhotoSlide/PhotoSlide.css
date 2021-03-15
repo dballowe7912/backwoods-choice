@@ -78,10 +78,10 @@
     border: 1px solid #fff;
 }
 
-.photoSlide .slide-image {
+/* .photoSlide .slide-image {
     width: 100%;
     height: 100vh;
-}
+} */
 
 /* Responsive Adjustments */
 
@@ -98,8 +98,12 @@ and (orientation: portrait) {
     }
 
     .photoSlide .slide-image {
-        width: 100%;
-        height: auto;
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%; */
+        /* width: auto;
+        height: 100vh; */
     }
 
 

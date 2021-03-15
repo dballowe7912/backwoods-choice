@@ -1,0 +1,12 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+}
+
+.contact-info {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 2em;
+    background-color: black;
+}

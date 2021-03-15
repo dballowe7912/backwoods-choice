@@ -13,10 +13,11 @@ class AboutPage extends Component {
                <Navbar/>
                <div className='about-container'>
                     <img 
+                        className='about-img'
                         src={steakPlate} 
-                        style={{padding: '20px'}}
                     />
-                    <div className='mission'>Our Mission
+                    <div className='mission'>
+                        <h3 className='mission-title'>Our Mission</h3>
                     <p>Forging thru to bring our customers a quality product at a third of the market value, satisfaction is guaranteed. 
                         Our steaks are USDA inspected to insure quality and each portion is vacuum sealed to prevent freezer burn. </p>
                     </div>
@@ -28,4 +29,3 @@ class AboutPage extends Component {
 
 export default AboutPage;
 
-// C:\Users\dball\Desktop\Backwoods Choice\backwoods-choice\src\assets\photos\steak-plate.jpg

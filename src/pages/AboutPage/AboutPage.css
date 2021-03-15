@@ -18,6 +18,18 @@
     width: 50%;
 }
 
+.mission-title {
+    background-color: black;
+    color: white;
+    opacity: 1;
+    padding-bottom: 1em;
+}
+
+.mission p {
+    margin: 0 0.5em;
+    font-size: 0.9em;
+}
+
 img {
     /* padding-top: 20px; */
 }
@@ -25,19 +37,69 @@ img {
 /* Responsive Adjustments */
 
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 516px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
+and (min-device-width: 375px) 
+and (max-device-width: 516px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
     
-
+    .mission {
+        font-size: 1.3em;
+        padding-top: 2em;
     }
+
+    .mission-title {
+        width: 100%;
+        background-color: black;
+        color: #fff;
+        opacity: 1;
+        text-align: center;
+        padding-bottom: 1em;
+        font-weight: 500;
+        font-size: 1.3em;
+    }
+
+    .about-container {
+        justify-content: center;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+}
     
-    @media only screen 
-    and (min-device-width: 320px) 
-    and (max-device-width: 516px)
-    and (-webkit-min-device-pixel-ratio: 2)
-    and (orientation: portrait) {
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 516px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .mission {
+        font-size: 1.3em;
+        padding-top: 2em;
+    }
+
+    .mission-title {
+        width: 100%;
+        background-color: black;
+        color: #fff;
+        opacity: 1;
+        text-align: center;
+        padding-bottom: 1em;
+        font-weight: 500;
+        font-size: 1.3em;
+    }
+
+    .about-container {
+        justify-content: center;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .mission p {
+        padding-bottom: 1.5em;
+        width: 100%;
+    }
 
 }
