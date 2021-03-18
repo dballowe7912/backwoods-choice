@@ -1,55 +1,57 @@
-import React, { Component } from 'react'
-import PhotoSlide from '../PhotoSlide/PhotoSlide'
-import slide1 from '../assets/photos/slide1.jpg';
-import slide2 from '../assets/photos/slide2.jpg';
+import React, { useState, useEffect } from 'react';
+// import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+// import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+
 
 import './SlidesContainer.css'
 
-class SlidesContainer extends Component {
-    constructor(props){
-        super(props)
+const SlidesContainer = ({images=[], interval=3000}) => {
 
-        this.state = {
-            src: slide1,
-            title: 'Steaks'
+    const [thumbnails, setThumbnails] = useState([]);
+    const [currentSlide, setCurrentSlide] = useState(0);
+    const [currentSlideStyle, setCurrentSlideStyle] = useState({});
+
+    useEffect(()=>{
+        setThumbnails(images);
+        setCurrentSlideStyle({
+            backgroundImage: "url('"+images[currentSlide]+"')"
+        });
+    }, [images, currentSlide]);
+
+    function previous(){
+        if(currentSlide>0){
+            setCurrentSlide(currentSlide-1);
+        }else{
+            setCurrentSlide(thumbnails.length-1);
         }
-
-        this.nextPhoto = this.nextPhoto.bind(this);
-        this.previousPhoto = this.previousPhoto.bind(this);
     }
 
-    nextPhoto(){
-        const {src} = this.state; 
-        if (src === slide1) {
-            this.setState({
-                src: slide2,
-                title: 'Seafood'
-            })
-      }
-    }
-
-    previousPhoto(){
-        const {src} = this.state;
-        if (src === slide2) {
-            this.setState({
-                src: slide1,
-                title: 'Steaks'
-            })
+    function next(){
+        if(currentSlide === thumbnails.length-1){
+            setCurrentSlide(0);
+        }else{
+            setCurrentSlide(currentSlide+1);
         }
     }
     
-    render() {
+    
         return (
-            <div className='slides-container'>
-                <PhotoSlide 
-                    src={this.state.src} 
-                    title={this.state.title}
-                    nextPhoto={this.nextPhoto} 
-                    previousPhoto={this.previousPhoto}
-                />
-            </div>
+ 
+        <div className='photoSlide'>
+            <section className="slideshow">
+                <div className="slide-holder">
+                    <section className="photoSlide-image slide current-slide">
+                        <div style={currentSlideStyle} className="slide-thumbnail"></div>
+                    </section>
+                </div>          
+                <div className="slideshow-controller">
+                    <span className='left-button' onClick={previous}>Previous</span>
+                    <span className='right-button' onClick={next}>Next</span>
+                </div>
+            </section>
+        </div>
         )
-    }
+    
 }
 
-export default SlidesContainer
+export default SlidesContainer;
