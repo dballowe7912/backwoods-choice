@@ -108,12 +108,12 @@ and (orientation: portrait) {
     }
 
     .photoSlide .slide-image {
-        /* display: block;
+        /* display: block; */
         margin-left: auto;
         margin-right: auto;
-        width: 100%; */
-        /* width: auto;
-        height: 100vh; */
+        width: 100%; 
+        /* width: auto; */
+        height: 100vh;
     }
 
 

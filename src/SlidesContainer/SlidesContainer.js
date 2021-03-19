@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-// import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
-// import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import React, { useState, useEffect, Component } from 'react';
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 
 import './SlidesContainer.css'
@@ -45,8 +45,12 @@ const SlidesContainer = ({images=[], interval=3000}) => {
                     </section>
                 </div>          
                 <div className="slideshow-controller">
-                    <span className='left-button' onClick={previous}>Previous</span>
-                    <span className='right-button' onClick={next}>Next</span>
+                    <span className='left-button' onClick={previous}>
+                        <ArrowBackIosIcon/>
+                    </span>
+                    <span className='right-button' onClick={next}>
+                        <ArrowForwardIosIcon/>
+                    </span>
                 </div>
             </section>
         </div>
@@ -55,3 +59,4 @@ const SlidesContainer = ({images=[], interval=3000}) => {
 }
 
 export default SlidesContainer;
+
