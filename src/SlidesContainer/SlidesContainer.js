@@ -39,11 +39,7 @@ const SlidesContainer = ({images=[], interval=3000}) => {
  
         <div className='photoSlide'>
             <section className="slideshow">
-                <div className="slide-holder">
-                    <section className="photoSlide-image slide current-slide">
-                        <div style={currentSlideStyle} className="slide-thumbnail"></div>
-                    </section>
-                </div>          
+                <div style={currentSlideStyle} className="slide-thumbnail"></div>
                 <div className="slideshow-controller">
                     <span className='left-button' onClick={previous}>
                         <ArrowBackIosIcon/>
