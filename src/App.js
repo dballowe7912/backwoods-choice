@@ -7,11 +7,11 @@ import ContactPage from './pages/ContactPage/ContactPage';
 import Meats from './pages/Meats/Meats';
 import SteakMenu from './SteakMenu/SteakMenu';
 import ChickenMenu from './ChickenMenu/ChickenMenu';
+import PorkMenu from './PorkMenu/PorkMenu';
+import SeafoodMenu from './SeafoodMenu/SeafoodMenu';
 import {steaks, chicken, pork, seafood} from './data.js';
 
 import './App.css';
-import PorkMenu from './PorkMenu/PorkMenu';
-import SeafoodMenu from './SeafoodMenu/SeafoodMenu';
 
 function App() {
   return (

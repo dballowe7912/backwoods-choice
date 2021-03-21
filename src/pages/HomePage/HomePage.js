@@ -3,9 +3,6 @@ import SlidesContainer from '../../SlidesContainer/SlidesContainer';
 import Header from '../../Header/Header';
 import Navbar from '../../Navbar/Navbar';
 
-// import image1 from '../../assets/photos/slide1.jpg';
-// import image2 from '../../assets/photos/slide2.jpg';
-import image3 from '../../assets/photos/image-1.jpg';
 import image4 from '../../assets/photos/image-2.jpg';
 import image5 from '../../assets/photos/image-3.jpg';
 import image6 from '../../assets/photos/image-4.jpg';

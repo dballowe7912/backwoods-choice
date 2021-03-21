@@ -14,7 +14,8 @@ class AboutPage extends Component {
                <div className='about-container'>
                     <img 
                         className='about-img'
-                        src={steakPlate} 
+                        src={steakPlate}
+                        alt='about-img' 
                     />
                     <div className='mission'>
                         <h3 className='mission-title'>Our Mission</h3>

@@ -25,7 +25,7 @@ class SteakMenu extends Component {
                             </thead>
                             <tbody>
                                 {this.props.data.map(item => (
-                                <tr>
+                                <tr key={item.name}>
                                     <td className='name'>{item.name}</td>
                                     <td className='quantity'>{item.quantity}</td>
                                     <td className='weight'>{item.weight}</td>
