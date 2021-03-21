@@ -7,6 +7,7 @@ import ContactPage from './pages/ContactPage/ContactPage';
 import Meats from './pages/Meats/Meats';
 import SteakMenu from './SteakMenu/SteakMenu';
 import ChickenMenu from './ChickenMenu/ChickenMenu';
+import {steaks, chicken, pork, seafood} from './data.js';
 
 import './App.css';
 import PorkMenu from './PorkMenu/PorkMenu';
@@ -15,20 +16,30 @@ import SeafoodMenu from './SeafoodMenu/SeafoodMenu';
 function App() {
   return (
     <div className="App">
-      {/* <Header/>
-      <Navbar/> */}
       <Switch>
         <Route path='/seafood-menu'>
-          <SeafoodMenu/>
+          <SeafoodMenu
+            title='Gourmet Seafood'
+            data={seafood}
+          />
         </Route>
         <Route path='/pork-menu'>
-          <PorkMenu/>
+          <PorkMenu
+            title='Fine Pork'
+            data={pork}
+          />
         </Route>
         <Route path='/chicken-menu'>
-          <ChickenMenu/>
+          <ChickenMenu
+            title='Gourmet Chicken'
+            data={chicken}
+          />
         </Route>
         <Route path='/steak-menu'>
-          <SteakMenu/>
+          <SteakMenu
+            title='USDA Steaks'
+            data={steaks}
+          />
         </Route>
         <Route path='/about'>
           <AboutPage/>

@@ -1,5 +1,11 @@
-thead {
-    border-bottom: 1px solid white;
+.paypal {
+    width: 400px;
+}
+
+.paypal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen 

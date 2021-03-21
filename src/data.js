@@ -1,8 +1,8 @@
 export const steaks = [
+    {name: 'USDA T-Bone Steaks', quantity: '4 pcs', weight:  '48 oz'},
     {name: 'Beef Bone-in KC Strips', quantity: '4 pcs', weight: '52 oz'},
     {name: 'USDA Choice Strip Steaks', quantity: '8 pcs', weight: '48 oz'},
     {name: 'USDA Choice Beef Filet Steaks', quantity: '9 pcs', weight: '40 oz'},
-    {name: 'USDA T-Bone Steaks', quantity: '4 pcs', weight:  '48 oz'},
     {name: 'USDA Choice Beef Ranch Steaks', quantity: '8 pcs', weight:  '48 oz'},
     {name: 'USDA Choice Chopped Steaks', quantity: '18 pcs', weight:  '96 oz'}
 ];

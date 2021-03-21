@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
-import { seafood } from '../data';
 
 import './SeafoodMenu.css';
 
@@ -12,18 +11,18 @@ class SeafoodMenu extends Component {
                 <Header/>
                 <Navbar/>
                 <div className='menu-container'>
-                    <h3>Gourmet Seafood</h3>
+                    <h3>{this.props.title}</h3>
                     <hr/>
                     <div className='menu-content'>
                         <table>
                             <thead>
                                 <tr className='table-head'>
-                                    <th className='name'>Seafood</th>
+                                    <th className='name'>Portion</th>
                                     <th className='weight'>Net Wt</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                {seafood.map(item => (
+                                {this.props.data.map(item => (
                                 <tr>
                                     <td className='name'>{item.name}</td>
                                     <td className='weight'>{item.weight}</td>

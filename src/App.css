@@ -30,6 +30,10 @@
   opacity: 0.8;
 }
 
+.menu-container h4 {
+  text-align: center;
+}
+
 table {
   width: 100%;
 }
@@ -41,7 +45,6 @@ table {
 
 .name {
   text-align: center;
-  /* border: 1px solid white; */
   width: 60%;
 }
 
@@ -55,6 +58,16 @@ table {
   text-align: center;
   /* border: 1px solid white; */
   width: 20%;
+}
+
+.table-footer {
+  width: 100%;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.price {
+  width: 100%;
 }
 
 @media only screen 

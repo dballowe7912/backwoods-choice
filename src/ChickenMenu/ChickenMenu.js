@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
-import { chicken } from '../data';
+
 class ChickenMenu extends Component {
     render() {
         return (
@@ -10,18 +10,18 @@ class ChickenMenu extends Component {
                 <Header/>
                 <Navbar/>
                 <div className='menu-container'>
-                    <h3>Gourmet Chicken</h3>
+                    <h3>{this.props.title}</h3>
                     <hr/>
                     <div className='menu-content'>
                         <table>
                             <thead>
                                 <tr className='table-head'>
-                                    <th className='name'>Chicken</th>
+                                    <th className='name'>Portion</th>
                                     <th className='weight'>Net Wt</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                {chicken.map(item => (
+                                {this.props.data.map(item => (
                                 <tr>
                                     <td className='name'>{item.name}</td>
                                     <td className='weight'>{item.weight}</td>

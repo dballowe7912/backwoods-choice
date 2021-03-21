@@ -12,18 +12,18 @@ class PorkMenu extends Component {
                 <Header/>
                 <Navbar/>
                 <div className='menu-container'>
-                    <h3>Gourmet Pork</h3>
+                    <h3>{this.props.title}</h3>
                     <hr/>
                     <div className='menu-content'>
                         <table>
                             <thead>
                                 <tr className='table-head'>
-                                    <th className='name'>Pork</th>
+                                    <th className='name'>Portion</th>
                                     <th className='weight'>Net Wt</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                {pork.map(item => (
+                                {this.props.data.map(item => (
                                 <tr>
                                     <td className='name'>{item.name}</td>
                                     <td className='weight'>{item.weight}</td>
