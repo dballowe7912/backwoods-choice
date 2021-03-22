@@ -28,6 +28,7 @@ table {
   width: 100%;
   border: 1px solid white;
   border-radius: 10px 10px 0 0;
+  box-shadow: 5px 5px 6px #000;
 }
 
 .table-head .name, .table-head .quantity, .table-head .weight {
@@ -54,6 +55,7 @@ table {
   align-items: center;
   border: 1px solid white;
   border-radius: 0 0 10px 10px;
+  box-shadow: 5px 5px 6px #000;
 }
 
 .price {
