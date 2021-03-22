@@ -33,3 +33,10 @@ export const pork = [
     {name: 'Country Style Ribs', quantity: '', weight: '48 oz'},
     {name: 'Italian Sausage', quantity: '', weight: '64 oz'}
 ];
+
+export const price = {
+    steaks: 499.00,
+    chicken: 321.00,
+    pork: 365.00,
+    seafood: 399.00,
+}
