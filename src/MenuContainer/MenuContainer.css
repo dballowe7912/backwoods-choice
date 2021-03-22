@@ -9,11 +9,12 @@
   background-color: black;
   line-height: 2em;
   opacity: 0.8;
+  margin: 20px;
+  border-radius: 10px;
 }
 
 .menu-container h3 {
   text-align: center;
-  padding-bottom: 20px;
   color: white;
   background-color: transparent;
   opacity: 0.8;
@@ -25,11 +26,12 @@
 
 table {
   width: 100%;
+  border: 1px solid white;
+  border-radius: 10px 10px 0 0;
 }
 
-.table-head {
+.table-head .name, .table-head .quantity, .table-head .weight {
   border-bottom: 1px solid white;
-  width: 100%;
 }
 
 .name {
@@ -40,12 +42,10 @@ table {
 .quantity {
   text-align: center;
   width: 20%;
-  /* border: 1px solid white; */
 }
 
 .weight {
   text-align: center;
-  /* border: 1px solid white; */
   width: 20%;
 }
 
@@ -53,6 +53,7 @@ table {
   width: 100%;
   align-items: center;
   border: 1px solid white;
+  border-radius: 0 0 10px 10px;
 }
 
 .price {

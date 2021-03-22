@@ -8,14 +8,14 @@ import './MenuContainer.css';
 class MenuContainer extends Component {
     render() {
         return (
+        <div>
+            <Header/>
+            <Navbar/>
             <div className='menu-container'>
-                <Header/>
-                <Navbar/>
                 <h3>{this.props.title}</h3>
-                <hr/>
                 <div className='menu-content'>
                     <table>
-                        <thead>
+                        <thead className='thead-tr'>
                             <tr className='table-head'>
                                 <th className='name'>Portion</th>
                                 <th className='quantity'>Qty</th>
@@ -24,7 +24,7 @@ class MenuContainer extends Component {
                         </thead>
                         <tbody>
                             {this.props.data.map(item => (
-                            <tr key={item.name}>
+                                <tr key={item.name}>
                                 <td className='name'>{item.name}</td>
                                 <td className='quantity'>{item.quantity}</td>
                                 <td className='weight'>{item.weight}</td>
@@ -33,8 +33,9 @@ class MenuContainer extends Component {
                         </tbody>
                     </table>
                         <div className='table-footer'>
-                            <div className='price'>
-                                <h4>${this.props.price.toFixed(2)}</h4>
+                            <div className='price-container'>
+                                <h4 className='total-title'>Your Price:</h4>
+                                <h4 className='price'>${this.props.price.toFixed(2)}</h4>
                             </div>
                         </div>
                 </div>
@@ -43,22 +44,23 @@ class MenuContainer extends Component {
                         amount={this.props.price}
                         // shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
                         onSuccess={(details, data) => {
-                        alert("Transaction completed by " + details.payer.name.given_name);
-
-                        // OPTIONAL: Call your server to save the transaction
-                        return fetch("/paypal-transaction-complete", {
-                            method: "post",
-                            body: JSON.stringify({
-                            orderId: data.orderID
-                            })
-                        });
+                            alert("Transaction completed by " + details.payer.name.given_name);
+                            
+                            // OPTIONAL: Call your server to save the transaction
+                            return fetch("/paypal-transaction-complete", {
+                                method: "post",
+                                body: JSON.stringify({
+                                    orderId: data.orderID
+                                })
+                            });
                         }}
                         options={{
-                        clientId: "PRODUCTION_CLIENT_ID"
+                            clientId: "PRODUCTION_CLIENT_ID"
                         }}
-                    />
+                        />
                 </div>                
             </div>
+        </div>
         )
     }
 }
