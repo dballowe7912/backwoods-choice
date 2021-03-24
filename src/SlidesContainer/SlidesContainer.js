@@ -14,7 +14,8 @@ const SlidesContainer = ({images=[], interval=3000}) => {
     useEffect(()=>{
         setThumbnails(images);
         setCurrentSlideStyle({
-            backgroundImage: "url('"+images[currentSlide]+"')"
+            backgroundImage: "url('"+images[currentSlide]+"')",
+            width: "100%"
         });
     }, [images, currentSlide]);
 
@@ -35,23 +36,21 @@ const SlidesContainer = ({images=[], interval=3000}) => {
     }
     
     
-        return (
- 
-        <div className='photoSlide'>
-            <section className="slideshow">
-                <div style={currentSlideStyle} className="slide-thumbnail"></div>
-                <div className="slideshow-controller">
-                    <span className='left-button' onClick={previous}>
-                        <ArrowBackIosIcon/>
-                    </span>
-                    <span className='right-button' onClick={next}>
-                        <ArrowForwardIosIcon/>
-                    </span>
-                </div>
-            </section>
-        </div>
-        )
-    
+    return (
+    <div className='photo-slide'>
+        <section className="slideshow">
+            <div style={currentSlideStyle} className="slide-thumbnail"></div>
+            <div className="slideshow-controller">
+                <span className='left-button' onClick={previous}>
+                    <ArrowBackIosIcon/>
+                </span>
+                <span className='right-button' onClick={next}>
+                    <ArrowForwardIosIcon/>
+                </span>
+            </div>
+        </section>
+    </div>
+    )
 }
 
 export default SlidesContainer;

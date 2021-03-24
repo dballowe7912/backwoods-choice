@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.photoSlide {
+.photo-slide {
     height: 100vh;
     width: auto;
 }
@@ -26,7 +26,7 @@ div.slide-thumbnail {
 }
 
 
-.photoSlide h5 {
+.photo-slide h5 {
     font-family: 'RocknRoll One', sans-serif;
     font-size: 3.5em;
     letter-spacing: 0.1em;
@@ -97,19 +97,4 @@ and (max-device-width: 516px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
     
-    .photoSlide h5 {
-        font-size: 1.3em;
-        font-size: 2.5em;
-        padding-bottom: 1em;
-    }
-
-    .photoSlide .slide-image {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%; 
-        width: auto;
-        height: 100vh;
-    }
-
 }

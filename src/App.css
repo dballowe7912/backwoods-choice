@@ -6,23 +6,3 @@
 .App {
   background-image: url('./assets/photos/wood-background.jpg');
 }
-
-
-
-/* @media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: portrait) {
-      .main-container {
-          background-size: inherit;
-      }
-
-      td {
-          margin: 0;
-          line-height: 1em;
-          font-size: 0.7em;
-      }
-
-      
-} */

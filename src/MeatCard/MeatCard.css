@@ -10,11 +10,6 @@
     box-shadow: 5px 5px 6px #000;
 }
 
-/* .steak-card:hover {
-    margin: 10px;
-    border: 1px solid white;
-} */
-
 .steak-card {
     margin: 15px;
     grid-column: 1;

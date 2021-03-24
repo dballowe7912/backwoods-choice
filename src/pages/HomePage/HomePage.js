@@ -13,15 +13,12 @@ class HomePage extends Component {
     render() {
         return (
             <div className='home-page'>
-                <Header className='Header'/>
-                <Navbar className='Navbar'/>
+                <Header />
+                <Navbar />
                 <div className='homePage-slideContainer'>
                     <SlidesContainer 
                         interval={3000}
                         images={[
-                            // image1,
-                            // image2,
-                            // image3,
                             image4,
                             image5,
                             image6,

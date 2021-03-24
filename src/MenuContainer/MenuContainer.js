@@ -41,6 +41,7 @@ class MenuContainer extends Component {
                 </div>
                 <div className="paypal-container">
                     <PayPalButton
+                        style={{color: 'silver'}}
                         amount={this.props.price}
                         // shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
                         onSuccess={(details, data) => {

@@ -1,13 +1,13 @@
 .header-container {
     display: absolute;
+    width: 100%;
 }
 
 .header {
+    width: 100%;
     background-size: cover;
     height: 20%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    text-align: center;
     color: #f2f2f2;
     font-size: 1.1rem;
     font-family: 'RocknRoll One', sans-serif;
@@ -31,8 +31,14 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
+    .header-container {
+        /* width: 100%; */
+    }
+
     .header {
-        font-size: 0.9em;
+        /* width: 100%; */
+        font-size: 14px;
+        text-align: center;
     }
 
     .logo {
