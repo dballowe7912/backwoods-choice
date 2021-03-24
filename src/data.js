@@ -8,31 +8,37 @@ export const steaks = [
 ];
 
 export const chicken = [
-    {name: 'Plum Teriyaki Chicken Breast', quantity: '', weight: '48 oz'},
-    {name: 'Southwest Chicken Breast', quantity: '', weight: '48 oz'},
-    {name: 'Italian Chicken Breast', quantity: '', weight: '48 oz'},
-    {name: 'Sun Dried Tomato Basil Parm Chicken', quantity: '', weight: '48 oz'},
-    {name: 'Roast Flavor Chicken Breasts', quantity: '', weight: '48 oz'},
-    {name: 'Chicken Tenders', quantity: '', weight: '48 oz'}
+    {name: 'Plum Teriyaki Chicken Breast', quantity: '9-12 pcs', weight: '48 oz'},
+    {name: 'Southwest Chicken Breast', quantity: '9-12 pcs', weight: '48 oz'},
+    {name: 'Italian Chicken Breast', quantity: '9-12 pcs', weight: '48 oz'},
+    {name: 'Sun Dried Tomato Basil Parm Chicken', quantity: '9-12 pcs', weight: '48 oz'},
+    {name: 'Roast Flavor Chicken Breasts', quantity: '9-12 pcs', weight: '48 oz'},
+    {name: 'Chicken Tenders', quantity: '8-10 pcs', weight: '48 oz'}
 ];
 
 export const seafood = [
-    {name: 'King Krab Legs', quantity: '', weight: '32 oz'},
-    {name: 'Breaded Shrimp', quantity: '', weight: '32 oz'},
-    {name: 'Cooked Shrimp', quantity: '', weight: '48 oz'},
-    {name: 'Fajita Salmon', quantity: '', weight: '32 oz'},
-    {name: 'Stuffed Talapia w/ spinach and cheese', quantity: '', weight: '48 oz'},
-    {name: 'Catfish Fillets', quantity: '', weight: '48 oz'}
+    {name: 'Cooked Whole Lobsters', quantity: '2 pcs', weight: '32 oz'},
+    {name: 'Breaded Shrimp', quantity: '-', weight: '32 oz'},
+    {name: 'Jumbo Shrimp', quantity: '-', weight: '48 oz'},
+    {name: 'Salmon', quantity: '-', weight: '32 oz'},
+    {name: 'Talapia Fillets', quantity: '-', weight: '48 oz'},
+    {name: 'Flounder', quantity: '-', weight: '48 oz'}
 ];
 
 export const pork = [
     {name: 'Southwest Pork Roast', quantity: '', weight: '64 oz'},
     {name: 'Rubbed Pork Chops', quantity: '', weight: '48 oz'},
-    {name: 'Boneless Pork Chops', quantity: '', weight: '48 oz'},
-    {name: 'Pork Tenderloin', quantity: '', weight: '48 oz'},
-    {name: 'Country Style Ribs', quantity: '', weight: '48 oz'},
-    {name: 'Italian Sausage', quantity: '', weight: '64 oz'}
+    {name: 'Bone-in Pork Chops', quantity: '6-8 pcs', weight: '48 oz'},
+    {name: 'Pork Tenderloin', quantity: '3 pcs', weight: '48 oz'},
+    {name: 'Country Style Ribs', quantity: '2 pcs', weight: '48 oz'},
+    {name: 'Italian Sausage', quantity: '2 pcs', weight: '64 oz'}
 ];
+
+export const cheeseCake = {
+    size: '9 inch',
+    price: 32.99,
+    deal: '6 for $100'
+}
 
 export const price = {
     steaks: 499.00,

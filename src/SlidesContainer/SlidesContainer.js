@@ -15,7 +15,6 @@ const SlidesContainer = ({images=[], interval=3000}) => {
         setThumbnails(images);
         setCurrentSlideStyle({
             backgroundImage: "url('"+images[currentSlide]+"')",
-            width: "100%"
         });
     }, [images, currentSlide]);
 
@@ -42,10 +41,10 @@ const SlidesContainer = ({images=[], interval=3000}) => {
             <div style={currentSlideStyle} className="slide-thumbnail">
                 <div className="slideshow-controller">
                     <span className='left-button' onClick={previous}>
-                        <ArrowBackIosIcon/>
+                        <ArrowBackIosIcon id='arrow-left-button'/>
                     </span>
                     <span className='right-button' onClick={next}>
-                        <ArrowForwardIosIcon/>
+                        <ArrowForwardIosIcon id='arrow-right-button'/>
                     </span>
                 </div>
             </div>

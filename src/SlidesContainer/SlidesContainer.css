@@ -9,17 +9,39 @@
 
 .slideshow {
     position: relative;
-    border-radius: 10px;
 }
 
 div.slide-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    box-shadow: 5px 5px 6px #000;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    box-shadow: '5px 5px 6px #000';
 }
 
+.right-button, .left-button {
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.right-button {
+    right: 14%;
+}
+
+.left-button {
+    left: 15%;
+}
+
+#arrow-left-button, #arrow-right-button {
+    font-size: 3em;
+}
 
 .photo-slide h5 {
     font-family: 'RocknRoll One', sans-serif;
@@ -34,31 +56,6 @@ div.slide-thumbnail {
     margin: 0;
     padding: 0;
     transform: translate(-50%, -50%);
-}
-
-.left-button {
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  color: #fff;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.right-button {
-    position: absolute;
-    top: 50%;
-    right: 5px;
-    color: #fff;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.left-button:focus, .right-button:focus {
-    border: none;
-    outline: none;
 }
 
 .shop-btn {
