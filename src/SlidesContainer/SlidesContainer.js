@@ -39,14 +39,15 @@ const SlidesContainer = ({images=[], interval=3000}) => {
     return (
     <div className='photo-slide'>
         <section className="slideshow">
-            <div style={currentSlideStyle} className="slide-thumbnail"></div>
-            <div className="slideshow-controller">
-                <span className='left-button' onClick={previous}>
-                    <ArrowBackIosIcon/>
-                </span>
-                <span className='right-button' onClick={next}>
-                    <ArrowForwardIosIcon/>
-                </span>
+            <div style={currentSlideStyle} className="slide-thumbnail">
+                <div className="slideshow-controller">
+                    <span className='left-button' onClick={previous}>
+                        <ArrowBackIosIcon/>
+                    </span>
+                    <span className='right-button' onClick={next}>
+                        <ArrowForwardIosIcon/>
+                    </span>
+                </div>
             </div>
         </section>
     </div>

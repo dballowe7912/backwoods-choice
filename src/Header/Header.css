@@ -31,12 +31,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
-    .header-container {
-        /* width: 100%; */
-    }
 
     .header {
-        /* width: 100%; */
         font-size: 14px;
         text-align: center;
     }

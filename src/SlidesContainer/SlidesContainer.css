@@ -9,20 +9,15 @@
 
 .slideshow {
     position: relative;
-    left:12%;
-    height: 100vh;
-    width: 75%;
     border-radius: 10px;
-    background: #000;
 }
 
 div.slide-thumbnail {
     height: 100vh;
-    border-radius: 10px;
     box-shadow: 5px 5px 6px #000;
-    opacity: 0.4;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
@@ -96,5 +91,5 @@ and (min-device-width: 320px)
 and (max-device-width: 516px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
-    
+
 }

@@ -14,11 +14,10 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
 
     .home-page {
-        /* width: auto; */
+        width: auto;
     }
 
     div.homePage-slideContainer {
-
         padding: 0;
     }
 }
