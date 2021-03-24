@@ -8,6 +8,7 @@ import image5 from '../../assets/photos/image-3.jpg';
 import image6 from '../../assets/photos/image-4.jpg';
 
 import './HomePage.css';
+import Footer from '../../Footer/Footer';
 
 class HomePage extends Component {
     render() {
@@ -25,6 +26,7 @@ class HomePage extends Component {
                         ]}
                     />
                 </div>
+                <Footer/>
             </div>
         )
     }
