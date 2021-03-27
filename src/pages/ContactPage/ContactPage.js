@@ -7,7 +7,7 @@ import './ContactPage.css';
 class ContactPage extends Component {
     render() {
         return (
-            <div className='contact'>
+            <div className='contact-page'>
                 <Header/>
                 <Navbar/>
                 <div className='contact-info'>

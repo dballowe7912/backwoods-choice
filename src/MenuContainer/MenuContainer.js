@@ -19,7 +19,7 @@ class MenuContainer extends Component {
                             <tr className='table-head'>
                                 <th className='name'>Portion</th>
                                 <th className='quantity'>Qty</th>
-                                <th className='weight'>Weight</th>
+                                <th className='weight'>Wt</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -58,8 +58,8 @@ class MenuContainer extends Component {
                         options={{
                             clientId: "PRODUCTION_CLIENT_ID"
                         }}
-                        />
-                </div>                
+                    />
+                </div> 
             </div>
         </div>
         )
