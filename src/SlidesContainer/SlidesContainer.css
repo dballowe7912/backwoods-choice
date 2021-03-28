@@ -1,77 +1,71 @@
-* {
-    box-sizing: border-box;
-}
-
 .photo-slide {
     height: 100vh;
     width: auto;
+    padding: 0;
+    margin: 0;
 }
 
-.slideshow {
-    position: relative;
-}
-
-div.slide-thumbnail {
-    display: flex;
+div.slideshow-container {
     justify-content: center;
+}
+
+.current-slide {
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.slideshow-controller {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.slideshow-buttons {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    box-shadow: '5px 5px 6px #000';
+    justify-content: space-evenly;
+    padding-top: 10px;
 }
 
 .right-button, .left-button {
-    position: absolute;
-    top: 50%;
-    background-color: transparent;
-    border: none;
     cursor: pointer;
     color: white;
 }
 
 .right-button {
-    right: 14%;
+    display: flex;
+    order: 3;
 }
 
 .left-button {
-    left: 15%;
+    display: flex;
+    order: 1;
 }
 
-#arrow-left-button, #arrow-right-button {
-    font-size: 3em;
+svg.MuiSvgIcon-root {
+    font-size: 2em;
 }
 
-.photo-slide h5 {
-    font-family: 'RocknRoll One', sans-serif;
-    font-size: 3.5em;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #f2f2f2;
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    margin: 0;
-    padding: 0;
-    transform: translate(-50%, -50%);
+.left-button:hover, .right-button:hover {
+    color: #FC7E2D;
+    border-color: #FC7E2D;
 }
 
 .shop-btn {
+    width: 20%;
+    text-align: center;
     font-family: 'RocknRoll One', sans-serif;
     font-size: 2em;
     color: #fff;
-    position: absolute;
     z-index: 1;
-    top: 60%;
-    left: 50%;
-    padding: 0 10px 2px 10px;
-    transform: translate(-50%, -50%);
+    padding: 0 10px 0px 10px;
     background-color: #F25C2C;
     border: none;
     border-radius: 5px;
-    margin-top: 20px;
+    order: 2;
+    box-shadow: 5px 5px 5px black;
 }
 
 .shop-btn:hover {
@@ -83,10 +77,10 @@ div.slide-thumbnail {
 
 /* Responsive Adjustments */
 
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 516px)
-and (-webkit-min-device-pixel-ratio: 2)
+@media (min-width: 320px) 
+and (max-width: 768px) 
 and (orientation: portrait) {
-
+  .shop-btn {
+      font-size: 1em;
+  }
 }

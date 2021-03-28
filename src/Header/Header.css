@@ -1,5 +1,7 @@
 .header-container {
-    display: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -25,20 +27,9 @@
     border: inset 3px solid black;
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 688px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-
-    .header {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .logo {
-        visibility: hidden;
-    }
+@media (min-width: 320px) 
+and (orientation: portrait) {
+  .header {
+    font-size: 1em;
+  }
 }
-

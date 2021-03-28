@@ -1,23 +1,16 @@
 .home-page {
     height: 100%;
+    width: 100%;
 }
 
-.homePage-slideContainer {
+.slideshow-container {
+    display: flex;
+    width: auto;
     padding: 10px;
 }
 
-
-@media only screen 
-and (min-device-width: 320px)
-and (max-device-width: 516px)
-and (-webkit-min-device-pixel-ratio: 2)
+@media (min-width: 320px) 
+and (max-width: 768px)
 and (orientation: portrait) {
-
-    .home-page {
-        width: auto;
-    }
-
-    div.homePage-slideContainer {
-        padding: 0;
-    }
+    
 }
