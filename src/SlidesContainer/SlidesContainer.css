@@ -84,3 +84,10 @@ and (orientation: portrait) {
       font-size: 1em;
   }
 }
+
+/* @media (orientation: landscape)
+and (min-width: 320px) {
+  .current-slide {
+    height: auto;
+  }
+} */

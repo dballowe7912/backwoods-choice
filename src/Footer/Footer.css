@@ -18,3 +18,11 @@
     color: lightgray;
 }
 
+/* @media (min-width: 320px)
+and (max-width: 1026px)
+and (orientation: landscape)
+  {
+  .footer-container {
+    height: 0;
+  }
+} */
