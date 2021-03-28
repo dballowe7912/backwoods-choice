@@ -10,12 +10,12 @@ class Footer extends Component {
         return (
             <div className='footer-container'>
                 <div className='icon-container'>
-                    <Link>
+                    {/* <Link className='instagram'>
                         <InstagramIcon/>    
                     </Link>
-                    <Link>
+                    <Link className='facebook'>
                         <FacebookIcon/>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         )

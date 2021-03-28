@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../../Footer/Footer';
 import Header from '../../Header/Header';
 import MeatCard from '../../MeatCard/MeatCard';
 import Navbar from '../../Navbar/Navbar';
@@ -13,6 +14,7 @@ class Meats extends Component {
                 <div className='meats'>
                     <MeatCard/>
                 </div>
+                <Footer/>
             </div>
         )
     }

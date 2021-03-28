@@ -4,6 +4,7 @@ import Navbar from '../../Navbar/Navbar';
 import steakPlate from '../../assets/photos/steak-plate.jpg';
 
 import './AboutPage.css';
+import Footer from '../../Footer/Footer';
 
 class AboutPage extends Component {
     render() {
@@ -24,6 +25,7 @@ class AboutPage extends Component {
                         and vacuum sealed to prevent freezer burn.</p>
                     </div>
                 </div>
+                <Footer/>
             </div>
         )
     }

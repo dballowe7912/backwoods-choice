@@ -15,7 +15,7 @@ class HomePage extends Component {
                 <div className='slideshow-container'>
                     <SlidesContainer />
                 </div>
-                {/* <Footer/> */}
+                <Footer/>
             </div>
         )
     }

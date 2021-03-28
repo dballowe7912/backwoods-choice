@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { PayPalButton } from 'react-paypal-button-v2';
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 import './MenuContainer.css';
 
@@ -39,7 +40,7 @@ class MenuContainer extends Component {
                             </div>
                         </div>
                 </div>
-                <div className="paypal-container">
+                {/* <div className="paypal-container">
                     <PayPalButton
                         style={{color: 'silver'}}
                         amount={this.props.price}
@@ -59,8 +60,9 @@ class MenuContainer extends Component {
                             clientId: "PRODUCTION_CLIENT_ID"
                         }}
                     />
-                </div> 
+                </div>  */}
             </div>
+            <Footer/>
         </div>
         )
     }
