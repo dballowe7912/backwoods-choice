@@ -6,43 +6,36 @@
     border: 1px solid #F2D585;
     color: black;
     font-size: 3em;
-    transition: 0.3s ease-in-out;
     box-shadow: 5px 5px 6px #000;
+    margin: 15px;
+    background-size: cover;
 }
 
 .steak-card {
-    margin: 15px;
     grid-column: 1;
     grid-row: 1;
     background-image: url('../assets/photos/card-background-steak.jpg');
     background-position: center;
-    background-size: cover;
 }
 
 .chicken-card {
-    margin: 15px;
     grid-column: 2;
     grid-row: 1;
     background-image: url('../assets/photos/card-background-chicken.jpg');
     background-position: center;
-    background-size: cover;
 }
 
 .seafood-card {
-    margin: 15px;
     grid-column: 1;
     grid-row: 2;
     background-image: url('../assets/photos/card-background-seafood.jpg');
     background-repeat: none;
-    background-size: cover;
 }
 
 .pork-card {
-    margin: 15px;
     grid-column: 2;
     grid-row: 2;
     background-image: url('../assets/photos/card-background-pork.jpg');
-    background-size: cover;
     background-position: center;
 }
 
@@ -52,4 +45,12 @@ h3 {
     background-color: white;
     width: 100%;
     opacity: 0.4;
+}
+
+@media (min-width: 320px) 
+and (max-width: 768px)
+and (orientation: portrait) {
+    .card {
+        height: 200px;
+    }
 }

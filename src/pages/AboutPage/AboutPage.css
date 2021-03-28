@@ -1,10 +1,11 @@
 .about-page {
     height: 100%;
+    width: 100%;
 }
 
 .about-container {
     display: flex;
-    border-top: 1px solid darkgrey;
+    border-top: 3px solid darkgrey;
     background-color: black;
     margin-top: 20px;
 }
@@ -30,7 +31,43 @@
     font-size: 0.9em;
 }
 
-img {
-    /* padding-top: 20px; */
-}
 
+
+@media (min-width: 320px) 
+and (max-width: 768px)
+and (orientation: portrait) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;       
+        margin: 0; 
+        padding: 0;
+    }
+
+    .about-img {
+        width: 100%;
+        padding: 0;
+        margin: 0 20px 0 20px;
+    }
+
+    .mission {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 2em;
+    }
+
+    .mission h3 {
+        padding-bottom: 0.5em;
+    }
+
+    .mission p {
+        width: 150%;
+        margin: 0;
+        font-size: 0.95rem;
+    }
+}

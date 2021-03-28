@@ -8,7 +8,7 @@ import './MenuContainer.css';
 class MenuContainer extends Component {
     render() {
         return (
-        <div>
+        <div className="menu-page">
             <Header/>
             <Navbar/>
             <div className='menu-container'>

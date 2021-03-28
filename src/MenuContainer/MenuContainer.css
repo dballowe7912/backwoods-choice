@@ -1,8 +1,13 @@
+.menu-page {
+  width: 100%;
+  height: 100%;
+}
+
 .menu-container {
-    color: white;
-    font-size: 1.5em;
-    padding-top: 20px;
-    height: 90vh;
+  color: white;
+  font-size: 1.5em;
+  padding-top: 20px;
+  height: 100%;
 }
 
 .menu-content {
@@ -13,6 +18,11 @@
   margin: 20px;
   border-radius: 10px;
 }
+
+
+
+
+
 
 .menu-container h3 {
   text-align: center;
@@ -27,15 +37,20 @@
 
 table {
   width: 100%;
-  border-top: 2px solid white;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
   border-radius: 10px 10px 0 0;
   box-shadow: 5px 5px 6px #000;
+  border: 2px solid white;
 }
 
 th.name, th.quantity, th.weight {
   font-weight: 600;
+  border-bottom: 1px solid white;
+}
+
+td {
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 5px;
 }
 
 .name {
@@ -49,13 +64,12 @@ th.name, th.quantity, th.weight {
 }
 
 .table-footer {
-  width: 100%;
+  display: flex;
+  justify-content: center;  
   align-items: center;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
-  border-bottom: 2px solid white;
   border-radius: 0 0 10px 10px;
   box-shadow: 5px 5px 6px #000;
+  border: 2px solid white;
 }
 
 .price {
@@ -70,24 +84,15 @@ th.name, th.quantity, th.weight {
   height: 130px;
 }
 
-td {
-  font-size: 1em;
-  line-height: 1.5em;
-  padding: 5px;
-}
 
-th {
-  font-size: 0.8em;
-  border-bottom: 1px solid white;
-}
-
-table {
-  border-bottom: 1px solid white;
-}
-
-@media (min-width: 768px) 
+@media (min-width: 320px) 
+and (max-width: 768px) 
 and (orientation: portrait) {
+  th {
+    font-size: 0.8em;
+  }
+
   td {
-    font-size: 1em;
+    font-size: 0.7em;
   }
 }

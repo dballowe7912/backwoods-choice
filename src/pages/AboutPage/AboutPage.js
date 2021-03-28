@@ -19,7 +19,7 @@ class AboutPage extends Component {
                     />
                     <div className='mission'>
                         <h3 className='mission-title'>Our Mission</h3>
-                    <p>Forging thru to bring our customers a quality product at a third of the market value, satisfaction is guaranteed. 
+                    <p className='about-text'>Forging thru to bring our customers a quality product at a third of the market value, satisfaction is guaranteed. 
                         Our steaks are USDA inspected to insure quality, and all of our product is guarenteed for flavor and tenderness, 
                         and vacuum sealed to prevent freezer burn.</p>
                     </div>
