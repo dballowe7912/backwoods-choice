@@ -15,6 +15,21 @@ div.slideshow-container {
     width: 100%;
 }
 
+.photo-tag {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.photo-by {
+    font-weight: 320;
+}
+
+h5 {
+    font-size: 1.2em;
+    color: white;
+    font-weight: 500;
+}
+
 .slideshow-controller {
     display: flex;
     flex-direction: column;

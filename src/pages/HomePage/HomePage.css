@@ -7,4 +7,9 @@
     display: flex;
     width: auto;
     padding: 10px;
+    margin-bottom: 120px;
+}
+
+.footer-container {
+    height: 15%;
 }

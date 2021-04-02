@@ -54,6 +54,9 @@ class SlidesContainer extends Component {
         <div className="photo-slide">
             <div className='slideshow'>
               <img className='current-slide' src={currentImage} alt={currentImageIndex}/>
+              <div className='photo-tag'>
+                <h5><span className='photo-by'>photos by</span> Michael Kemplin</h5>
+              </div>
             </div>
             <div className='slideshow-controller'>
               <div className='slideshow-buttons'>

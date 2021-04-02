@@ -9,4 +9,21 @@
     text-align: center;
     margin-top: 2em;
     background-color: black;
+    height: 70%;
+}
+
+.footer-container {
+    height: 15%;
+}
+
+@media (min-width: 320px) 
+and (max-width: 768px) {
+    .contact-info {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        border: 1px solid white
+    }
 }
