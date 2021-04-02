@@ -5,6 +5,7 @@ import imageThree from '../assets/photos/image-3.jpg';
 import imageFour from '../assets/photos/image-4.jpg';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import { Link } from 'react-router-dom';
 
 import './SlidesContainer.css'
 
@@ -20,6 +21,11 @@ class SlidesContainer extends Component {
 
     this.previous = this.previous.bind(this);
     this.next = this.next.bind(this);
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(){
+    console.log('works');
   }
 
   previous(){
@@ -66,7 +72,12 @@ class SlidesContainer extends Component {
                 <span className='right-button' onClick={this.next}>
                   <ArrowForwardIosIcon />
                 </span>
-              <div className='shop-btn'>Order Now</div>
+              <Link 
+                className='shop-btn' 
+                exact to='/meats'
+              >
+                Order Now
+              </Link>
               </div>
             </div>
         </div>
