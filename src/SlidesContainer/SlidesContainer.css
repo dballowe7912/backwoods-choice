@@ -1,8 +1,15 @@
 .photo-slide {
-    height: 100vh;
+    /* height: 100vh; */
     width: auto;
     padding: 0;
     margin: 0;
+}
+
+.photo-slide h1 {
+    text-align: center;
+    color: white;
+    padding: 0 0 20px 0;
+    font-weight: 400;
 }
 
 div.slideshow-container {
@@ -33,7 +40,7 @@ h5 {
 .slideshow-controller {
     display: flex;
     flex-direction: column;
-    height: 100px;
+    height: 70px;
 }
 
 .slideshow-buttons {
@@ -98,6 +105,10 @@ and (max-width: 768px)
 and (orientation: portrait) {
   .shop-btn {
       font-size: 1em;
+  }
+
+  .photo-slide h1 {
+      font-size: 1.29em;
   }
 }
 

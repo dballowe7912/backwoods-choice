@@ -58,6 +58,7 @@ class SlidesContainer extends Component {
     let { currentImage, currentImageIndex } = this.state;
     return (
         <div className="photo-slide">
+          <h1>Your Source for East Texas Meat</h1>
             <div className='slideshow'>
               <img className='current-slide' src={currentImage} alt={currentImageIndex}/>
               <div className='photo-tag'>
