@@ -1,5 +1,5 @@
 export const steaks = [
-    {name: 'USDA T-Bone Steaks', quantity: '4 pcs', weight:  '48 oz'},
+    {name: 'USDA T-Bone Steaks', quantity: '2 pcs', weight:  '48 oz'},
     {name: 'Beef Bone-in KC Strips', quantity: '4 pcs', weight: '52 oz'},
     {name: 'USDA Choice Strip Steaks', quantity: '8 pcs', weight: '48 oz'},
     {name: 'USDA Choice Beef Filet Steaks', quantity: '9 pcs', weight: '40 oz'},
@@ -8,12 +8,12 @@ export const steaks = [
 ];
 
 export const chicken = [
-    {name: 'Plum Teriyaki Chicken Breast', quantity: '9-12 pcs', weight: '48 oz'},
-    {name: 'Southwest Chicken Breast', quantity: '9-12 pcs', weight: '48 oz'},
-    {name: 'Italian Chicken Breast', quantity: '9-12 pcs', weight: '48 oz'},
-    {name: 'Sun Dried Tomato Basil Parm Chicken', quantity: '9-12 pcs', weight: '48 oz'},
-    {name: 'Roast Flavor Chicken Breasts', quantity: '9-12 pcs', weight: '48 oz'},
-    {name: 'Chicken Tenders', quantity: '8-10 pcs', weight: '48 oz'}
+    {name: 'Plain Chicken Breast', quantity: '8-10 pcs', weight: '48 oz'},
+    {name: 'Lemon Pepper Chicken Breasts', quantity: '8-10 pcs', weight: '48 oz'},
+    {name: 'Italian Chicken Breasts', quantity: '8-10 pcs', weight: '48 oz'},
+    {name: 'Garlic Butter Herb Breasts', quantity: '8-10 pcs', weight: '48 oz'},
+    {name: 'Southwestern Chicken Breast', quantity: '9-12 pcs', weight: '48 oz'},
+    {name: 'Chicken Tenders', quantity: '15 pcs', weight: '48 oz'}
 ];
 
 export const seafood = [
