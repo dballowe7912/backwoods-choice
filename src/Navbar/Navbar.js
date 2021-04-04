@@ -10,7 +10,7 @@ class Navbar extends Component {
                     <li><Link className='link' to='/'>Home</Link></li>
                     <li><Link className='link' to='/meats'>Meats</Link></li>
                     <li><Link className='link' to='/about'>About</Link></li>
-                    <li><Link className='link' to='/contact'>Contact</Link></li>
+                    <li><Link className='link' to='/contact'>Contact</Link></li>                
                 </ul>
             </div>
         )

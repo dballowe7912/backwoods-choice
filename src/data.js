@@ -1,10 +1,10 @@
 export const steaks = [
     {name: 'USDA T-Bone Steaks', quantity: '2 pcs', weight:  '48 oz'},
-    {name: 'Beef Bone-in KC Strips', quantity: '4 pcs', weight: '52 oz'},
-    {name: 'USDA Choice Strip Steaks', quantity: '8 pcs', weight: '48 oz'},
-    {name: 'USDA Choice Beef Filet Steaks', quantity: '9 pcs', weight: '40 oz'},
-    {name: 'USDA Choice Beef Ranch Steaks', quantity: '8 pcs', weight:  '48 oz'},
-    {name: 'USDA Choice Chopped Pub Burgers', quantity: '12 pcs', weight:  '96 oz'}
+    {name: 'USDA Ribeye Steaks', quantity: '6 pcs', weight: '52 oz'},
+    {name: 'USDA Petite New York Strips', quantity: '8 pcs', weight: '48 oz'},
+    {name: 'USDA Filet Mignon Steaks', quantity: '9 pcs', weight: '40 oz'},
+    {name: 'USDA Top Sirloin', quantity: '6 pcs', weight:  '48 oz'},
+    {name: 'USDA Choice Chopped Pub Burgers', quantity: '12 pcs', weight:  '1/4 lb each'}
 ];
 
 export const chicken = [
