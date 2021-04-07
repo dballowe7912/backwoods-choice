@@ -34,12 +34,6 @@ export const pork = [
     {name: 'Italian Sausage', quantity: '2 pcs', weight: '64 oz'}
 ];
 
-export const cheeseCake = {
-    size: '9 inch',
-    price: 32.99,
-    deal: '6 for $100'
-}
-
 export const price = {
     steaks: 499.00,
     chicken: 321.00,

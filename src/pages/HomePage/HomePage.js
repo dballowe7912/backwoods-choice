@@ -6,6 +6,7 @@ import imageFour from '../../assets/photos/image-4.jpg';
 
 import './HomePage.css';
 import Footer from '../../Footer/Footer';
+import ScrollBanner from '../../ScrollBanner/ScrollBanner';
 
 class HomePage extends Component {
     render() {
@@ -14,6 +15,7 @@ class HomePage extends Component {
                 <Header />
                 <Navbar />
                 <div className='main-content-homepage'>
+                    <ScrollBanner/>
                     <div className='slideshow-container'>
                         <SlidesContainer />
                     </div>
