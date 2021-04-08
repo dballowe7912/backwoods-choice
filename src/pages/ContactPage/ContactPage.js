@@ -14,7 +14,7 @@ class ContactPage extends Component {
                 <div className='contact-info'>
                     <div>Terry Wayne</div>
                     <div>903-259-8466</div>
-                    <div>backwoodschoice2018@gmail.com</div>
+                    <div>backwoodschoice.etx.143@gmail.com</div>
                 </div>
                 <div className="footer-container">
                     <Footer/>

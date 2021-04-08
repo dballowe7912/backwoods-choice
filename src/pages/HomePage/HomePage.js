@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import SlidesContainer from '../../SlidesContainer/SlidesContainer';
 import Header from '../../Header/Header';
 import Navbar from '../../Navbar/Navbar';
-import imageFour from '../../assets/photos/image-4.jpg';
+import ScrollBanner from '../../ScrollBanner/ScrollBanner';
+import SlidesContainer from '../../SlidesContainer/SlidesContainer';
+import Footer from '../../Footer/Footer';
 
 import './HomePage.css';
-import Footer from '../../Footer/Footer';
-import ScrollBanner from '../../ScrollBanner/ScrollBanner';
 
 class HomePage extends Component {
     render() {

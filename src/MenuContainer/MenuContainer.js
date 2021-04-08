@@ -40,7 +40,7 @@ class MenuContainer extends Component {
                             </div>
                         </div>
                 </div>
-                {/* <div className="paypal-container">
+                <div className="paypal-container">
                     <PayPalButton
                         style={{color: 'silver'}}
                         amount={this.props.price}
@@ -60,7 +60,7 @@ class MenuContainer extends Component {
                             clientId: "PRODUCTION_CLIENT_ID"
                         }}
                     />
-                </div>  */}
+                </div> 
             </div>
             <Footer/>
         </div>
