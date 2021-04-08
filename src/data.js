@@ -1,5 +1,5 @@
 export const steaks = [
-    {name: 'USDA T-Bone Steaks', quantity: '2 pcs', weight:  '48 oz'},
+    {name: 'USDA T-Bone Steaks', quantity: '2 pcs', weight:  '28 oz'},
     {name: 'USDA Ribeye Steaks', quantity: '6 pcs', weight: '52 oz'},
     {name: 'USDA Petite New York Strips', quantity: '8 pcs', weight: '48 oz'},
     {name: 'USDA Filet Mignon Steaks', quantity: '9 pcs', weight: '40 oz'},
