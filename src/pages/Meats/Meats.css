@@ -18,5 +18,6 @@ and (orientation: portrait) {
     .meats {
         display: flex;
         flex-direction: column;
+        height: fit-content;
     }
 }
