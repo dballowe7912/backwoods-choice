@@ -8,12 +8,12 @@ export const steaks = [
 ];
 
 export const chicken = [
-    {name: 'Plain Chicken Breast', quantity: '8-10 pcs', weight: '48 oz'},
-    {name: 'Lemon Pepper Chicken Breasts', quantity: '8-10 pcs', weight: '48 oz'},
-    {name: 'Italian Chicken Breasts', quantity: '8-10 pcs', weight: '48 oz'},
-    {name: 'Garlic Butter Herb Breasts', quantity: '8-10 pcs', weight: '48 oz'},
+    {name: 'Plain Chicken Breast', quantity: '9-12 pcs', weight: '48 oz'},
+    {name: 'Lemon Pepper Chicken Breasts', quantity: '9-12 pcs', weight: '48 oz'},
+    {name: 'Italian Chicken Breasts', quantity: '9-12 pcs', weight: '48 oz'},
+    {name: 'Garlic Butter Herb Breasts', quantity: '9-12 pcs', weight: '48 oz'},
     {name: 'Southwestern Chicken Breast', quantity: '9-12 pcs', weight: '48 oz'},
-    {name: 'Chicken Tenders', quantity: '15 pcs', weight: '48 oz'}
+    {name: 'Chicken Tenders', quantity: '10-15 pcs', weight: '48 oz'}
 ];
 
 export const seafood = [
