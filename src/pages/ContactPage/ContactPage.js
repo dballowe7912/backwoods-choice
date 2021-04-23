@@ -17,11 +17,6 @@ class ContactPage extends Component {
                         <div>Terry Wayne</div>
                         <div>903-259-8466</div>
                     </div>
-                    <div className='contact'>
-                        <div style={{textDecoration: 'underline'}}>Co Owner</div>
-                        <div>Rodney Shindler</div>
-                        <div>903-574-9054</div>
-                    </div>
                     <div>backwoodschoice.etx.143@gmail.com</div>
                 </div>
                 <div className="footer-container">
